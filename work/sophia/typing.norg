@@ -1,0 +1,41 @@
+*PATCH:\/assets\/\{identifier\}*
+@code json
+{
+  "title": "Pump #939872",
+  "summary": "",
+  "_links": {
+    "self": {
+      "href": "/api/v2.0/assets/79cbea8c-7b26-4e34-9958-af3922597a46"
+    }
+  },
+  "uuid": "79cbea8c-7b26-4e34-9958-af3922597a46",
+  "identifiers": [],
+  "attributes": [],
+  "classes": [
+    {
+      "_links": {
+        "self": {
+          "href": "/api/v2.0/classes/eku:esc:enclosure"
+        }
+      },
+      "classname": "eku:esc:enclosure"
+    }
+  ],
+  "relations_inbound": [],
+  "relations_outbound": [],
+  "group_memberships": []
+}
+@end
+*GET:\/assets\/*
+@code json
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2.0/assets/79cbea8c-7b26-4e34-9958-af3922597a46"
+    }
+  },
+  "title": "ll",
+  "uuid": "79cbea8c-7b26-4e34-9958-af3922597a46",
+  "summary": ""
+},
+@end

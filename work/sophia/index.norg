@@ -1,0 +1,12 @@
+* Services
+  {http://192.168.1.10:10181/api/v2.0/doc}[asset service]
+  {http://192.168.1.10:10183/api/v2.0/doc}[report service]
+  {http://192.168.1.10:10185/api/v2.0/doc}[user service]
+  {:typing:}[typing]
+
+  asset-create-edit.component.ts - addNewAttributeInPopup
+
+
+* cn0
+  edwar.martinez@bupunku.com
+  zoofiiM7weigeiJeeg

@@ -1,0 +1,16 @@
+* Repositories
+  - *Repo del frontend*:
+  -- https://bitbucket.org/bupunkuweb/training-angular-app/src/main/
+  - *Servicios backend*:
+  -- https://bitbucket.org/bupunkuweb/report-service/src/Main/
+  -- https://bitbucket.org/bupunkuweb/training-service/src/Main/
+  -- https://bitbucket.org/bupunkuweb/user-service/src/Main/
+  -- https://bitbucket.org/bupunkuweb/file-management-service/src/main/
+
+* Config
+  - Los que vayan trabajando en tickets para frontend ya tienen usuarios creados en el server local. Para conectarse cambian las urls en el archivo: src > environments > environment.ts Por lo siguiente:
+  -- user_service_url: 'http://192.168.1.10:11181/api/v1.0',
+  -- training_service_url: 'http://192.168.1.10:11182/api/v1.0',
+  -- report_service_url: 'http://192.168.1.10:11183/api/v1.0'
+
+  Igual ya hay usuarios para que se puedan loggear: {nombre}@admin.com y el password es demo

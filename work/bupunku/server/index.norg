@@ -1,0 +1,19 @@
+ssh connection workaround:
+ssh -F /dev/null bupunku@192.168.1.10
+
+command to start services:
+nohup gunicorn app:app --config=python:config.gunicorn_conf &
+
+command to kill services by their port:
+kill -9 $(lsof -t -i:10183)
+
+command to connect to the server:
+ssh bupunku@192.168.1.10
+password:
+bpk22bol
+
+command to activate python virtual environments:
+aenv
+
+path of services:
+cd /opt/ekupd/bin

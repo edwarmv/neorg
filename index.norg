@@ -1,0 +1,9 @@
+This is a link to my history notes: {* Another Heading}[linlk]
+
+private _url: string = `http://192.168.1.217:10183/api/v2.0/reports/timeseries`;
+
+* Another Heading
+  With some text
+
+* Work
+** {:work/bupunku/index:}[Bupunku]
